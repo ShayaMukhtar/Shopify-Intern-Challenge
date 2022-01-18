@@ -1,0 +1,90 @@
+header {
+justify-content: center;    
+align-items: center;
+display: flex;
+font-size: 73px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 12px;
+color: darkblue;
+}
+
+h5 {
+    margin-left: 12px;
+    size: 5px;
+}
+
+.card {
+background-color: rgb(241, 241, 241);
+margin: 10px;
+width: 500px;
+border-radius: 10px;
+border: black solid 10px;
+
+}
+
+.card-body {
+background-color: #ddd;
+width: 500px;
+
+}
+
+#button {
+  border: solid lightgray;
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 80px;
+}
+
+#button:active {
+transform: scale(0.98);
+}
+
+
+img {
+    height: 500px;
+}
+
+#topPic {
+    width: 500px;
+    height: 50px;
+}
+
+body{
+    width: 100%;
+  
+    overflow-x: hidden;
+}
+
+.spinner{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f3f3f3;
+    border-top:3px solid #808080;
+    border-radius: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    animation: spin 2s infinite linear;
+    animation-duration: 2s;
+   
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+#overlay{
+  height:100%;
+  width:100%;
+  position:fixed;
+  left:0;
+  top:0;
+ }
