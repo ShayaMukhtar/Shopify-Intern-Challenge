@@ -1,16 +1,29 @@
-header {
-justify-content: center;    
-align-items: center;
-display: flex;
-font-size: 73px;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-left: 12px;
-color: darkblue;
+body {
+    background-image: url("space\ bg.jpg");
+    background-image: cover;
+    background-attachment: fixed;
 }
 
+header {
+
+font-size: 73px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+text-shadow: rgb(170, 170, 170) 3px 3px;
+
+}
+
+#headerSpace {
+    text-align: center;
+    justify-content: center;
+    }
+    
+
 h5 {
-    margin-left: 12px;
+
     size: 5px;
+    color: #ddd;
+    text-align: center;
 }
 
 .card {
@@ -19,11 +32,17 @@ margin: 10px;
 width: 500px;
 border-radius: 10px;
 border: black solid 10px;
+grid-row: 2/3;
+grid-column: 2/3;
+margin: 0 auto;
+display: grid;
+grid-template-rows: 1fr 6fr 1fr;
+margin-bottom: 20px;
 
 }
 
 .card-body {
-background-color: #ddd;
+background-color: rgb(160, 160, 160);
 width: 500px;
 
 }
